@@ -10,8 +10,8 @@ string squarecmd;
 string symbol;
 
 cout << "> Enter 's' or 'square' for square and 'r' or 'rectangle' for rectangle!" << endl;
-
-while (123 == 123)
+int step = 0;
+while (step < 1)
 {
 cout << "Command: ";
 cin >> squarecmd;
@@ -84,6 +84,7 @@ cin >> squarecmd;
 
 	else
 	cout << "> Wrong input!\n";
+	step++;
 
 }
 }
